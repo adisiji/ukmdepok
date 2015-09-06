@@ -11,7 +11,7 @@ import android.widget.ListView;
 /**
  * Created by neobyte on 9/6/2015.
  */
-public class ObjectsFragment extends Fragment {
+public class ObjectsFragment2 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -20,9 +20,7 @@ public class ObjectsFragment extends Fragment {
 
 
         // Defined Array values to show in ListView
-        String[] Objects = new String[] { "Apple",
-                "Orange","Grapes","Dog","Cat","Rat","Ants","Books","Grapes","Dog","Cat","Rat",
-                "Ants","Books","Lion","Tiger","Monkey","Water","Air","Sun","Rain","Orange",
+        String[] Objects = new String[] { "Tiger","Monkey","Water","Air","Sun","Rain","Orange",
                 "Grapes","Dog","Cat","Rat","Ants","Books","Lion","Tiger","Monkey","Water","Air",
                 "Sun","Rain"
         };

@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
         //creating the tabs and adding them to adapter class
         mTabsAdapter.addFragment(new ObjectsFragment(), "Berita");
-        mTabsAdapter.addFragment(new ObjectsFragment(), "Daftar UKM");
-        mTabsAdapter.addFragment(new ObjectsFragment(), "Tentang Kami");
+        mTabsAdapter.addFragment(new ObjectsFragment2(), "Daftar UKM");
+        mTabsAdapter.addFragment(new ObjectsFragment3(), "Tentang Kami");
 
         //setup viewpager to give swipe effect
         tabsviewPager.setAdapter(mTabsAdapter);
